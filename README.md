@@ -1,13 +1,10 @@
-## Design System ##
+# Components
 
-#Components
-
-- [ ] Text
-- [ ] Heading
-- [ ] Box 
 - [ ] Button
+- [ ] Heading
+- [ ] Text
 - [ ] TextInput
-- [ ] CheckBox
-- [ ] TextArea
+- [ ] Textarea
+- [ ] Checkbox
 - [ ] Avatar
-- [ ] MultiStep(etapa que o usuario esta)
+- [ ] MultiStep
