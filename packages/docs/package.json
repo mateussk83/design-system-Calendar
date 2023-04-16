@@ -21,7 +21,6 @@
     "typescript": "^5.0.3",
     "vite": "^4.2.1"
   },
-  "peerDependencies": {},
   "scripts": {
     "dev": "storybook dev -p 6006",
     "build": "storybook build"
@@ -29,6 +28,8 @@
   "dependencies": {
     "@mateus-ignite-ui/react": "*",
     "@mateus-ignite-ui/tokens": "*",
+    "@mateus-ignite-ui/ts-config": "*",
+    "polished": "^4.2.2",
     "react": "^18.2.0",
     "react-dom": "^18.2.0"
   }

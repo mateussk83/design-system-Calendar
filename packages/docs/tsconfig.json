@@ -1,11 +1,4 @@
 {
-  "compilerOptions": {
-    "target": "es2020",
-    "module": "commonjs",
-    "esModuleInterop": true,
-    "forceConsistentCasingInFileNames": true,
-    "skipLibCheck": true,
-    "outDir": "dist",
-    "jsx": "react"
-  }
+  "extends": "@mateus-ignite-ui/ts-config/react.json",
+  "include": ["src"]
 }
