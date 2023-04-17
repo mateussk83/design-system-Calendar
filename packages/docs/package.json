@@ -23,12 +23,14 @@
   },
   "scripts": {
     "dev": "storybook dev -p 6006",
-    "build": "storybook build"
+    "build": "storybook build",
+    "lint": "eslint src/**/*.ts* --fix"
   },
   "dependencies": {
     "@mateus-ignite-ui/react": "*",
     "@mateus-ignite-ui/tokens": "*",
     "@mateus-ignite-ui/ts-config": "*",
+    "@mateus-ignite-ui/eslint-config": "*",
     "polished": "^4.2.2",
     "react": "^18.2.0",
     "react-dom": "^18.2.0"
