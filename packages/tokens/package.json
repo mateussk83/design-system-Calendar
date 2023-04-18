@@ -8,12 +8,14 @@
   "scripts": {
     "build": "tsup src/index.ts --format esm,cjs --dts",
     "dev": "tsup src/index.ts --format esm,cjs --dts --watch",
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "lint": "eslint src/**/*.ts* --fix"
   },
   "author": "Mateus Garcia Santos",
   "license": "MIT",
   "devDependencies": {
     "@mateus-ignite-ui/ts-config": "*",
+    "@mateus-ignite-ui/eslint-config": "*",
     "tsup": "^6.7.0",
     "typescript": "^5.0.2"
   }
