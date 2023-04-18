@@ -2,7 +2,7 @@ import { Meta, StoryObj } from '@storybook/react'
 import { Box, BoxProps } from '@mateus-ignite-ui/react'
 
 const meta: Meta<BoxProps> = {
-  title: 'Form/Box',
+  title: 'Typography/Box',
   component: Box,
   args: {
     children: (

@@ -2,7 +2,7 @@ import { Meta, StoryObj } from '@storybook/react'
 import { Text, TextProps } from '@mateus-ignite-ui/react'
 
 const meta: Meta<TextProps> = {
-  title: 'Form/Text',
+  title: 'Typography/Text',
   component: Text,
   args: {
     children:
@@ -18,5 +18,13 @@ export const CustomTag: StoryObj<TextProps> = {
   args: {
     children: 'Strong Text',
     as: 'strong',
+  },
+  parameters: {
+    docs: {
+      description: {
+        story:
+          'Por padrão o heading sempre será um `p`, mas podemos alterar isso com a propriedade `as`.',
+      },
+    },
   },
 }
