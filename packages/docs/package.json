@@ -27,10 +27,11 @@
     "lint": "eslint src/**/*.ts* --fix"
   },
   "dependencies": {
+    "@mateus-ignite-ui/eslint-config": "*",
     "@mateus-ignite-ui/react": "*",
     "@mateus-ignite-ui/tokens": "*",
     "@mateus-ignite-ui/ts-config": "*",
-    "@mateus-ignite-ui/eslint-config": "*",
+    "phosphor-react": "^1.4.1",
     "polished": "^4.2.2",
     "react": "^18.2.0",
     "react-dom": "^18.2.0"

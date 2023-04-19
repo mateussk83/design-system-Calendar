@@ -15,14 +15,18 @@
   "author": "",
   "license": "MIT",
   "devDependencies": {
+    "@mateus-ignite-ui/eslint-config": "*",
     "@mateus-ignite-ui/tokens": "*",
     "@mateus-ignite-ui/ts-config": "*",
-    "@mateus-ignite-ui/eslint-config": "*",
     "@stitches/react": "^1.2.8",
     "@types/react": "^18.0.31",
     "@types/react-dom": "^18.0.11",
     "react": "^18.2.0",
     "tsup": "^6.7.0",
     "typescript": "^5.0.2"
+  },
+  "dependencies": {
+    "@radix-ui/react-avatar": "^1.0.2",
+    "phosphor-react": "^1.4.1"
   }
 }
