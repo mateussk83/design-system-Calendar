@@ -31,6 +31,7 @@
     "@mateus-ignite-ui/react": "*",
     "@mateus-ignite-ui/tokens": "*",
     "@mateus-ignite-ui/ts-config": "*",
+    "@radix-ui/react-checkbox": "^1.0.3",
     "phosphor-react": "^1.4.1",
     "polished": "^4.2.2",
     "react": "^18.2.0",
