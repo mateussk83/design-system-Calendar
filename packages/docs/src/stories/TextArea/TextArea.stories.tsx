@@ -2,7 +2,7 @@ import { Meta, StoryObj } from '@storybook/react'
 import { Box, Text, TextArea, TextAreaProps } from '@mateus-ignite-ui/react'
 
 const meta: Meta<TextAreaProps> = {
-  title: 'Form/TexttArea',
+  title: 'Form/TextArea',
   component: TextArea,
   args: {},
   decorators: [
