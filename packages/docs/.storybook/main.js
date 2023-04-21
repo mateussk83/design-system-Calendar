@@ -20,6 +20,9 @@ const config = {
   docs: {
     autodocs: 'tag'
   },
+  features: {
+    "storyStoreV7": true
+  },
   viteFinal: (config, { configType }) => {
     if (configType === 'PRODUCTION') {
       config.base = '/design-system-IgniteCalendar/'
