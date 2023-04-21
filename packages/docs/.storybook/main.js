@@ -21,12 +21,11 @@ const config = {
     autodocs: 'tag'
   },
   viteFinal: (config, { configType }) => {
-    if (configType== "PRODUCTION") {
+    if (configType === 'PRODUCTION') {
       config.base = '/design-system-Calendar/'
-      
     }
 
-    return config 
+    return config
   }
 };
 export default config;
