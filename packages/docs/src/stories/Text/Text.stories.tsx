@@ -5,8 +5,30 @@ const meta: Meta<TextProps> = {
   title: 'Typography/Text',
   component: Text,
   args: {
+    size: 'md',
     children:
       'Lorem ipsum dolor sit, amet consectetur adipisicing elit. Perferendis sunt ipsum tempora animi laborum quam tempore doloremque neque possimus commodi vel veniam rerum saepe dolores, inventore quaerat earum sequi libero!',
+  },
+  argTypes: {
+    size: {
+      options: [
+        'xxs',
+        'xs',
+        'sm',
+        'md',
+        'lg',
+        '2xl',
+        '4xl',
+        '5xl',
+        '6xl',
+        '7xl',
+        '8xl',
+        '9xl',
+      ],
+      control: {
+        type: 'inline-radio',
+      },
+    },
   },
 }
 

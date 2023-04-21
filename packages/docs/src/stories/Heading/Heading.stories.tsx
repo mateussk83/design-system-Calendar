@@ -5,8 +5,19 @@ const meta: Meta<HeadingProps> = {
   title: 'Typography/Heading',
   component: Heading,
   args: {
+    size: 'md',
     children:
       'Lorem ipsum dolor sit, amet consectetur adipisicing elit. Perferendis sunt ipsum tempora animi laborum quam tempore doloremque neque possimus commodi vel veniam rerum saepe dolores, inventore quaerat earum sequi libero!',
+  },
+  argType: {
+    argTypes: {
+      size: {
+        options: ['xxs', 'xs', 'sm', 'md', 'lg', '2xl', '4xl', '5xl', '6xl'],
+        control: {
+          type: 'inline-radio',
+        },
+      },
+    },
   },
 }
 

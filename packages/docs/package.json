@@ -12,6 +12,7 @@
     "@storybook/preset-typescript": "^3.0.0",
     "@storybook/react": "^7.0.2",
     "@storybook/react-webpack5": "^7.0.2",
+    "@storybook/storybook-deployer": "^2.8.16",
     "@storybook/testing-library": "0.0.14-next.2",
     "@vitejs/plugin-react": "^3.1.0",
     "prop-types": "15.8.1",
@@ -24,7 +25,8 @@
   "scripts": {
     "dev": "storybook dev -p 6006",
     "build": "storybook build",
-    "lint": "eslint src/**/*.ts* --fix"
+    "lint": "eslint src/**/*.ts* --fix",
+    "deplay-storybook": "storybook-to-ghpages"
   },
   "dependencies": {
     "@mateus-ignite-ui/eslint-config": "*",
@@ -32,6 +34,7 @@
     "@mateus-ignite-ui/tokens": "*",
     "@mateus-ignite-ui/ts-config": "*",
     "@radix-ui/react-checkbox": "^1.0.3",
+    "@storybook/addon-a11y": "^7.0.6",
     "phosphor-react": "^1.4.1",
     "polished": "^4.2.2",
     "react": "^18.2.0",

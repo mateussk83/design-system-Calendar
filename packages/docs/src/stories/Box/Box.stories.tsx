@@ -11,6 +11,13 @@ const meta: Meta<BoxProps> = {
       </>
     ),
   },
+  argTypes: {
+    children: {
+      control: {
+        type: null,
+      },
+    },
+  },
 }
 
 export default meta

@@ -8,6 +8,13 @@ const meta: Meta<AvatarProps> = {
     src: 'https://github.com/mateussk83.png',
     alt: 'Mateus Garcia Santos',
   },
+  argTypes: {
+    src: {
+      control: {
+        type: 'text',
+      },
+    },
+  },
 }
 
 export default meta
