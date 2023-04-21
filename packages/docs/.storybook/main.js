@@ -22,7 +22,7 @@ const config = {
   },
   viteFinal: (config, { configType }) => {
     if (configType === 'PRODUCTION') {
-      config.base = '/design-system-igniteCalendar/'
+      config.base = '/design-system-IgniteCalendar/'
     }
 
     return config
