@@ -7,5 +7,5 @@
   "access": "public",
   "baseBranch": "main",
   "updateInternalDependencies": "patch",
-  "ignore": ["@mateus-ignite-ui/docs"]
+  "ignore": ["@mateus-garcia-ignite-ui/docs"]
 }

@@ -1,5 +1,5 @@
 import { Meta, StoryObj } from '@storybook/react'
-import { Box, Text, TextArea, TextAreaProps } from '@mateus-ignite-ui/react'
+import { Box, Text, TextArea, TextAreaProps } from '@mateus-garcia-ignite-ui/react'
 
 const meta: Meta<TextAreaProps> = {
   title: 'Form/TextArea',

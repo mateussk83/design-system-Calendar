@@ -1,5 +1,5 @@
 {
-  "name": "@mateus-ignite-ui/tokens",
+  "name": "@mateus-garcia-ignite-ui/tokens",
   "version": "1.0.0",
   "description": "",
   "module": "./dist/index.mjs",
@@ -14,8 +14,8 @@
   "author": "Mateus Garcia Santos",
   "license": "MIT",
   "devDependencies": {
-    "@mateus-ignite-ui/ts-config": "*",
-    "@mateus-ignite-ui/eslint-config": "*",
+    "@mateus-garcia-ignite-ui/ts-config": "*",
+    "@mateus-garcia-ignite-ui/eslint-config": "*",
     "tsup": "^6.7.0",
     "typescript": "^5.0.2"
   }

@@ -1,5 +1,5 @@
 {
-  "name": "@mateus-ignite-ui/docs",
+  "name": "@mateus-garcia-ignite-ui/docs",
   "version": "1.0.0",
   "main": "index.js",
   "license": "MIT",
@@ -29,10 +29,10 @@
     "deploy-storybook": "storybook-to-ghpages"
   },
   "dependencies": {
-    "@mateus-ignite-ui/eslint-config": "*",
-    "@mateus-ignite-ui/react": "*",
-    "@mateus-ignite-ui/tokens": "*",
-    "@mateus-ignite-ui/ts-config": "*",
+    "@mateus-garcia-ignite-ui/eslint-config": "*",
+    "@mateus-garcia-ignite-ui/react": "*",
+    "@mateus-garcia-ignite-ui/tokens": "*",
+    "@mateus-garcia-ignite-ui/ts-config": "*",
     "@radix-ui/react-checkbox": "^1.0.3",
     "@storybook/addon-a11y": "^7.0.6",
     "phosphor-react": "^1.4.1",

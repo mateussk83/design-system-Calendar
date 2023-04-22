@@ -1,6 +1,6 @@
 {
-  "name": "@mateus-ignite-ui/react",
-  "version": "1.0.0",
+  "name": "@mateus-garcia-ignite-ui/react",
+  "version": "2.0.0",
   "description": "",
   "module": "./dist/index.mjs",
   "main": "./dist/index.js",
@@ -15,9 +15,9 @@
   "author": "",
   "license": "MIT",
   "devDependencies": {
-    "@mateus-ignite-ui/eslint-config": "*",
-    "@mateus-ignite-ui/tokens": "*",
-    "@mateus-ignite-ui/ts-config": "*",
+    "@mateus-garcia-ignite-ui/eslint-config": "*",
+    "@mateus-garcia-ignite-ui/tokens": "*",
+    "@mateus-garcia-ignite-ui/ts-config": "*",
     "@stitches/react": "^1.2.8",
     "@types/react": "^18.0.31",
     "@types/react-dom": "^18.0.11",

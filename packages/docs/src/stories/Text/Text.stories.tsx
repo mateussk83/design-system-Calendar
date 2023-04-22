@@ -1,5 +1,5 @@
 import { Meta, StoryObj } from '@storybook/react'
-import { Text, TextProps } from '@mateus-ignite-ui/react'
+import { Text, TextProps } from '@mateus-garcia-ignite-ui/react'
 
 const meta: Meta<TextProps> = {
   title: 'Typography/Text',

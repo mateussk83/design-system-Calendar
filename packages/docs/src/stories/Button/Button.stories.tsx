@@ -1,5 +1,5 @@
 import { Meta, StoryObj } from '@storybook/react'
-import { Button, ButtonProps } from '@mateus-ignite-ui/react'
+import { Button, ButtonProps } from '@mateus-garcia-ignite-ui/react'
 import { ArrowRight } from 'phosphor-react'
 
 const meta: Meta<ButtonProps> = {

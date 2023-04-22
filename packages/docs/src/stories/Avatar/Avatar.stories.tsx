@@ -1,5 +1,5 @@
 import { Meta, StoryObj } from '@storybook/react'
-import { Avatar, AvatarProps } from '@mateus-ignite-ui/react'
+import { Avatar, AvatarProps } from '@mateus-garcia-ignite-ui/react'
 
 const meta: Meta<AvatarProps> = {
   title: 'Data display/Avatar',
