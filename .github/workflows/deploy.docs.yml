@@ -1,24 +1,20 @@
 name: Deploy docs
-
 on:
   push:
     branches:
       - main
-
 jobs:
   build-and-deploy:
     runs-on: ubuntu-latest
     steps:
       - name: Checkout
         uses: actions/checkout@v3
-
       - name: Setup Node.js
         uses: actions/setup-node@v3
         with:
           node-version: 16
-          cache: 'npm',
+          cache: 'npm'
           cache-dependency-path: '**/package-lock.json'
-
       - run: npm ci
 
       - run: npm run build
@@ -26,7 +22,7 @@ jobs:
           TURBO_TOKEN: l1Ef4n8xy7YvEZnWgThXVYfT
           TURBO_TEAM: team-ignite-ui
 
-      - name: Deploy storybook
+      - name: Deploy storybook                                  
         working-directory: ./packages/docs
         run: npm run deploy-storybook -- --ci --existing-output-dir=storybook-static
         env:
