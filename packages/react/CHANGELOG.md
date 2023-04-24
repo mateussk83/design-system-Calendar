@@ -1,5 +1,11 @@
 # @mateus-garcia-ignite-ui/react
 
+## 2.0.3
+
+### Patch Changes
+
+- Insert tooltip component
+
 ## 2.0.2
 
 ### Patch Changes
