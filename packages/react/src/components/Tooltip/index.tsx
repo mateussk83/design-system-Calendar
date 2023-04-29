@@ -1,17 +1,16 @@
-import { ComponentProps } from 'react'
+import React, { ComponentProps } from 'react'
 import {
   TooltipContainer,
-  Trigger,
+  TooltipTrigger,
   TooltipProvider,
   Message,
   Arrow,
-  Portal,
-  Root,
+  TooltipPortal,
+  TooltipRoot,
 } from './styles'
-
 import { Text } from '../Text'
 
-export interface TooltipProps extends ComponentProps<typeof Trigger> {
+export interface TooltipProps extends ComponentProps<typeof TooltipTrigger> {
   available: boolean
   title: string
   message: string
@@ -19,18 +18,20 @@ export interface TooltipProps extends ComponentProps<typeof Trigger> {
 
 export function Tooltip({ available = true, title, message }: TooltipProps) {
   return (
-    <TooltipProvider>
-      <Root>
-        <Trigger asChild available={available}>
-          <button>{title}</button>
-        </Trigger>
-        <Portal>
-          <Message className="TooltipContent" sideOffset={3}>
-            <Text>{message}</Text>
-            <Arrow className="TooltipArrow" />
-          </Message>
-        </Portal>
-      </Root>
-    </TooltipProvider>
+    <TooltipContainer>
+      <TooltipProvider>
+        <TooltipRoot>
+          <TooltipTrigger asChild available={available}>
+            <button>{title}</button>
+          </TooltipTrigger>
+          <TooltipPortal>
+            <Message className="TooltipContent" sideOffset={3}>
+              <Text>{message}</Text>
+              <Arrow className="TooltipArrow" />
+            </Message>
+          </TooltipPortal>
+        </TooltipRoot>
+      </TooltipProvider>
+    </TooltipContainer>
   )
 }

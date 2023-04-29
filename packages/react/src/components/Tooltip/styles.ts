@@ -3,7 +3,7 @@ import { styled } from '../../styles'
 
 export const TooltipContainer = styled(Tooltip.Root, {})
 
-export const Trigger = styled(Tooltip.Trigger, {
+export const TooltipTrigger = styled(Tooltip.Trigger, {
   padding: '16px 26px',
   border: 0,
   borderRadius: '$sm',
@@ -28,8 +28,8 @@ export const Trigger = styled(Tooltip.Trigger, {
   },
 })
 
-export const Root = styled(Tooltip.Root, {})
-export const Portal = styled(Tooltip.Portal, {})
+export const TooltipRoot = styled(Tooltip.Root, {})
+export const TooltipPortal = styled(Tooltip.Portal, {})
 
 export const Message = styled(Tooltip.Content, {
   borderRadius: '$md',

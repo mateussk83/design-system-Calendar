@@ -1,4 +1,4 @@
-import { ComponentProps } from 'react'
+import React, { ComponentProps } from 'react'
 import { AvatarContainer, AvatarImage, AvatarFallback } from './styles'
 import { User } from 'phosphor-react'
 

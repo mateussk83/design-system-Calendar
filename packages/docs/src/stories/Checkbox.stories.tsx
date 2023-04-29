@@ -1,5 +1,10 @@
 import { Meta, StoryObj } from '@storybook/react'
-import { Box, Text, Checkbox, CheckboxProps } from '@mateus-garcia-ignite-ui/react'
+import {
+  Box,
+  Text,
+  Checkbox,
+  CheckboxProps,
+} from '@mateus-garcia-ignite-ui/react'
 
 const meta: Meta<CheckboxProps> = {
   title: 'Form/Checkbox',

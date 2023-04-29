@@ -1,4 +1,7 @@
 {
+  "compilerOptions": {
+    "jsx": "react"
+  },
   "extends": "@mateus-garcia-ignite-ui/ts-config/react.json",
   "include": ["src"]
 }
